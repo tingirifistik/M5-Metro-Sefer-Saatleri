@@ -1,0 +1,23 @@
+{
+    "name": "Sefer Saatleri",
+    "description": "M5 Metrosu Sefer Saatleri",
+    "repository": "https://github.com/tingirifistik/M5-Metro-Sefer-Saatleri",
+    "logo": "http://www.farukcagla.com/firmalar/metro.jpg",
+    "env": {
+        "TOKEN": {
+            "description": "Telegram Botunun Token Değeri",
+            "required": true
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
